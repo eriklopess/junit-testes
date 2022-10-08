@@ -2,16 +2,26 @@ package eriklopess.testes.calculatorprogram;
 
 public class Calculator {
     public double sum(double... numbers) {
-        double sum = 0;
+        double result = 0;
 
         if (numbers.length > 0) {
             for (double number : numbers) {
-                sum += number;
+                result += number;
             }
         }
 
-        return sum;
+        return result;
     }
 
+    public double sub(double... numbers) {
+        double result = 0;
 
+        if (numbers.length > 0) {
+            for (double number : numbers) {
+                result -= number;
+            }
+        }
+
+        return result;
+    }
 }
