@@ -41,4 +41,20 @@ public class CalculatorTest {
 
         Assertions.assertEquals(0, sub);
     }
+
+    @Test
+    public void ShouldReturnAnExceptionIfTheGivenArgumentIsNegative() {
+        Calculator calc = new Calculator();
+        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> calc.squareRoot(-9));
+
+        Assertions.assertEquals("Não é possivel fazer a raíz quadrada de um numero negativo.", exception.getMessage());
+    }
+
+    public void ShoudReturnTheRootSquareOfTheGivenArgument() {
+        Calculator calc = new Calculator();
+
+        double sqrt = calc.squareRoot(9);
+
+        Assertions.assertEquals(3, sqrt);
+    }
 }

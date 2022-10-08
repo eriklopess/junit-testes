@@ -24,4 +24,12 @@ public class Calculator {
 
         return result;
     }
+
+    public double squareRoot(double number) {
+        if (number < 0) {
+            throw new IllegalArgumentException("Não é possivel fazer a raíz quadrada de um numero negativo.");
+        }
+
+        return Math.sqrt(number);
+    }
 }

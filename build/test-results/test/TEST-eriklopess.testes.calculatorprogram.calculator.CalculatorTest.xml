@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-08T03:09:56" hostname="DESKTOP-J3EGPLE" time="0.026">
+<testsuite name="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-08T03:20:20" hostname="DESKTOP-J3EGPLE" time="0.026">
   <properties/>
-  <testcase name="ShouldReturnZeroWhenNoValueWereGiven()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.022"/>
+  <testcase name="ShouldReturnZeroWhenNoValueWereGiven()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.02"/>
+  <testcase name="ShouldReturnAnExceptionIfTheGivenArgumentIsNegative()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.001"/>
   <testcase name="ShouldReturnTheSubtractionOfGivenValues()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="ShouldReturnZeroWhenNoValueWereGivenForSubtraction()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.0"/>
-  <testcase name="ShouldReturnTheSumOfGivenValues()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.001"/>
+  <testcase name="ShouldReturnZeroWhenNoValueWereGivenForSubtraction()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.001"/>
+  <testcase name="ShouldReturnTheSumOfGivenValues()" classname="eriklopess.testes.calculatorprogram.calculator.CalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
